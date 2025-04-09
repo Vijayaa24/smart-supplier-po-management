@@ -1,34 +1,39 @@
 # smart-supplier-po-management
 
 
----
+# 🚀 Smart Supplier & PO Management App
 
-✅ Once you push this README, your project will look super polished to any recruiter or interviewer.
+An end-to-end full-stack application built on **SAP BTP**, using **CAPM**, **SAP HANA Cloud**, **Fiori Elements**, and **XSUAA** for secure role-based PO management.
 
----
 
-## ✅ Bonus: Add Launchpad Tile
+## 📌 Features
 
-If you deployed your app as an HTML5 App:
-
-1. Go to **SAP Build Work Zone / Site Manager**
-2. Add a **New App → Freestyle App**
-3. Select your `smart-supplier-po-management` app
-4. Add tile to your group/page
-5. Assign the **POViewer** / **POApprover** roles to your test users via BTP cockpit
-
----
-
-## Final 🎯 Interview Tip
-
-You can now say:
-
-> “I developed an end-to-end Smart PO Management App using SAP BTP and deployed it with XSUAA, CAPM, HDI containers, and role-based Fiori Launchpad integration. It includes WebSocket-based real-time notifications and a PO audit trail. I also published the code on GitHub with a full README and CI-ready structure.”
+- 📦 Create & manage Purchase Orders
+- 👥 Role-based access (Viewer vs Approver)
+- 🔔 Real-time PO alerts via WebSockets for high-value POs
+- 📜 PO History for audit tracking
+- 🔐 Secure authentication via XSUAA
+- 🚀 Deployed on SAP BTP (Cloud Foundry)
+- 📋 Fiori Launchpad tile + SAP Build Work Zone Integration
 
 ---
 
-Want me to:
-- Help you write a LinkedIn post about this project?
-- Start the **XSUAA Role Sync App** implementation next?
+## ⚙️ Tech Stack
 
-Let’s roll!
+- SAP BTP (Cloud Foundry)
+- CAPM (Node.js)
+- SAP HANA Cloud (HDI Container)
+- SAP XSUAA & Role Collections
+- SAP Fiori Elements
+- SAP Destination Service
+- SAP Build Work Zone
+
+---
+
+## 🛠️ Run Locally (in BAS)
+
+```bash
+npm install
+cds watch
+
+
